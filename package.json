@@ -1,0 +1,19 @@
+{
+  "name": "NekoCheck",
+  "version": "1.0.0",
+  "description": "simple code editor",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^8.2.3",
+    "iconv-lite": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "packagewin": "electron-packager . NekoCheck --platform=win32 --arch=x64 --icon=a.ico --out=./out --asar --app-version=3.0.0 --overwrite --electron-version 8.2.3",
+    "packagelinux": "electron-packager . NekoCheck --platform=linux --arch=x64 --icon=a.ico --out=./out --asar --app-version=3.0.0 --overwrite --electron-version 8.2.3"
+  },
+  "author": "",
+  "license": "ISC"
+}

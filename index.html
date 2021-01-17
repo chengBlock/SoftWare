@@ -1,0 +1,34 @@
+<!DOCtype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <!--
+      <textarea id="textArea"></textarea>
+  -->
+  <pre id="editor">
+    </pre>
+  <!--下边的状态栏-->
+  <div id="status" style="text-align: right;">
+    <span>
+      Lines：<span id="hang" style="margin-right: 15px;">1</span>
+      Language：<span id="yuyan" style="margin-right: 15px;">Text</span>
+      Code：<span id="bianma" style="margin-right: 15px;">UTF-8</span>
+      Themes：<span id="zhuti" style="margin-right: 10px;">Cobalt</span>
+    </span>
+
+  </div>
+
+  <script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+  <script src="src-noconflict/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
+  <script src="src-noconflict/ext-searchbox.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./ipcRenderer.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
